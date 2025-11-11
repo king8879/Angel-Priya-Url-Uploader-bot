@@ -2,7 +2,7 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8544463835:AAEqxTcamFRon1iJRqXP0iIqZjh_XzeYI44")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8543138109:AAGE7QZsqz92yPWOJY2tTm0tFmCAkoSShro")
     # The Telegram API things
     APP_ID = int(os.environ.get("APP_ID", 22923037))
     API_HASH = os.environ.get("dfb3666878b3851460a58461c5a50f5b")
@@ -30,4 +30,5 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
     #Admin id is stored in 
     LAZY_DEVELOPER = set(int(x) for x in os.environ.get("LAZY_ADMIN", "").split())
+
 
